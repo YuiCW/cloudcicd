@@ -11,6 +11,19 @@ public class WelcomeController {
 		return "Hello World";
 			
 	}
+	@GetMapping("/msg1")
+	public String getMsg1()
+	{
+		return "Hello World1";
+			
+	}
+	
+	@GetMapping("/msg2")
+	public String getMsg2()
+	{
+		return "Hello World2";
+			
+	}
 
 }
 
